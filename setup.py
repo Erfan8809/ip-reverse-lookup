@@ -1,4 +1,3 @@
-cat > setup.py << 'EOF'
 #!/usr/bin/env python3
 """
 Setup configuration for IP Reverse Lookup Tool
@@ -44,4 +43,3 @@ setup(
         ],
     },
 )
-EOF
