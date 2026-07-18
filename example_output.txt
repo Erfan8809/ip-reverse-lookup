@@ -1,0 +1,32 @@
+mkdir -p examples
+cat > examples/example_output.txt << 'EOF'
+============================================================
+REVERSE IP LOOKUP RESULTS
+IP Address: 8.8.8.8
+Date: 2024-01-15 14:30:22
+============================================================
+
+IP INFORMATION:
+----------------------------------------
+  ISP: Google LLC
+  ORGANIZATION: Google Public DNS
+  AS: AS15169 Google LLC
+  COUNTRY: United States
+  CITY: Mountain View
+  REGION: California
+  LOCATION: 37.386, -122.0838
+
+FOUND DOMAINS (2):
+----------------------------------------
+   1. dns.google
+   2. google-public-dns-a.google.com
+
+----------------------------------------
+STATISTICS:
+  DNS PTR: 1
+  ViewDNS: 0
+  HackerTarget: 0
+  Shodan: 1
+  Total Unique: 2
+============================================================
+EOF
