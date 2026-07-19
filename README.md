@@ -19,11 +19,13 @@ A powerful, free, and beautiful command-line tool to find all domains hosted on 
 
 ## 🚀 Quick Start
 
+curl -fsSL https://raw.githubusercontent.com/Erfan8809/ip-reverse-lookup/main/install.sh | bash
+
 ### Installation
 
 
 # Clone the repository
-git clone https://github.com/yourusername/ip-reverse-lookup.git
+git clone https://github.com/Erfan8809/ip-reverse-lookup.git
 cd ip-reverse-lookup
 
 # Install dependencies
